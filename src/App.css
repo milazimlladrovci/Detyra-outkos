@@ -86,3 +86,95 @@ main {
   height: 22px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  main {
+    padding: 32px 75px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    /* min-height: 100vh; */
+  }
+  
+  .button-popup {
+    background-color: rgb(59 124 75);
+    color: white;
+    padding: 5px;
+    width: 180px;
+    height: 45px;
+    font-size: 24px;
+  }
+  .changetheme {
+    position: relative;
+    color: #2072ef;
+    margin-top: -20px;
+    left: 150px;
+    font-weight: 100;
+    font-size: 13px;
+  }
+  .paragraph1 {
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+  
+  .paragraph {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+  
+  .paragraph-right {
+    position: relative;
+    left: 140px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  .c-right {
+    width: 50px;
+    position: relative;
+    left: 190px;
+    margin-top: -20px;
+    background-color: #444444;
+    height: 22px;
+    border-radius: 5px;
+  }
+  .c-rightF {
+    width: 50px;
+    position: relative;
+    left: 190px;
+    margin-top: -20px;
+    background-color: #ffffff;
+    border: 1px solid rgb(196, 196, 196);
+    height: 22px;
+    border-radius: 5px;
+  }
+  .c-rightB {
+    width: 50px;
+    position: relative;
+    left: 190px;
+    margin-top: -20px;
+    background-color: #2072ef;
+    height: 22px;
+    border-radius: 5px;
+  }
+  .c-rightM {
+    width: 50px;
+    position: relative;
+    left: 190px;
+    margin-top: -20px;
+    background-color: #0053d1;
+    height: 22px;
+    border-radius: 5px;
+  }
+}

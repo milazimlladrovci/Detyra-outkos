@@ -44,3 +44,58 @@
 .popup-inner .save-btn:hover {
   background-color: #0053d1;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 80%;
+    max-width: 480px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .popup-inner .close-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 170px;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+  }
+  
+  .popup-inner .save-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 50px;
+    width: 90px;
+    height: 40px;
+    background-color: #2072ef;
+    color: white;
+    border-radius: 5px;
+    border-color: #2072ef;
+  }
+  .popup-inner .save-btn:hover {
+    background-color: #0053d1;
+  }
+}
